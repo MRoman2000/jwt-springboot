@@ -25,7 +25,7 @@ public class JwtAuthFilter extends OncePerRequestFilter {
     private JwtService jwtService;
 
     @Autowired
-    private UserInfoService userInfoService; // Debe cargar usuarios desde DB
+    private UserInfoService userInfoService;
 
     @Override
     protected void doFilterInternal(HttpServletRequest request, HttpServletResponse response, FilterChain chain)

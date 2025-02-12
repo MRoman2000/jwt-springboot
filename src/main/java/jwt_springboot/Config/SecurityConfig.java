@@ -37,7 +37,7 @@ public class SecurityConfig {
 
     @Bean
     public UserDetailsService userDetailsService() {
-        return new UserInfoService(); // Asegúrate de que UserInfoService implemente UserDetailsService
+        return new UserInfoService();
     }
 
     @Bean
